@@ -1,0 +1,17 @@
+{
+  "name": "timeberry",
+  "description": "Command line time tracking",
+  "tags": ["time", "tracking", "timetracking", "tool"],
+  "author": "Marco Aurelio <thecoreh@gmail.com>",
+  "version": "0.0.1",
+  "dependencies": {},
+  "bin": {
+    "tb": "./bin/tb",
+    "tb-start": "./bin/tb-start",
+    "tb-pause": "./bin/tb-pause",
+    "tb-commit": "./bin/tb-commit",
+    "tb-log": "./bin/tb-log",
+    "tb-status": "./bin/tb-status",
+    "tb-discard": "./bin/tb-discard"
+  }
+}

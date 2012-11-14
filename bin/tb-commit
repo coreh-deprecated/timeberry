@@ -1,0 +1,9 @@
+#!/usr/bin/env node
+
+var io = require('../lib/io')
+    time = require('../lib/time')
+
+var data = io.read();
+var status = time.commit(data, process.argv[2], process.argv[3])
+io.write(data);
+process.exit(status)    
