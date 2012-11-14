@@ -3,7 +3,7 @@
   "description": "Command line time tracking",
   "tags": ["time", "tracking", "timetracking", "tool"],
   "author": "Marco Aurelio <thecoreh@gmail.com>",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "dependencies": {},
   "bin": {
     "tb": "./bin/tb",
