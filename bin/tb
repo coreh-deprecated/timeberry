@@ -2,7 +2,14 @@
 
 var child_process = require('child_process')
 
-var name = process.argv[2]
-var args = process.argv.slice(3)
+var name, args;
+
+if (process.argv.length == 2) {
+  name = 'status';
+  args = []
+} else {
+  name = process.argv[2]
+  args = process.argv.slice(3)  
+}
 
 child_process.spawn('tb-'+name, args, { stdio: 'inherit' });
